@@ -1,4 +1,4 @@
-# SLEAP_shortcuts
+# PHY2_shortcuts
 A very small Repo that has some examples of shortcuts we can use for PHY2 so users do not have to use the terminal every time. 
 
 ## Windows:
