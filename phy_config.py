@@ -11,7 +11,7 @@ from phy import IPlugin
 #         pass
 
 c = get_config()
-c.Plugins.dirs = [r'C:\Users\Padilla-Coreano\.phy\plugins']
+c.Plugins.dirs = [r'~\.phy\plugins']
 
 c.TemplateGUI.plugins = ['ISIViolationPlugin1ms', 'ISIViolationPlugin1_5ms', 'ISIViolationPlugin2ms']  # list of plugin names to load in the TemplateGUI
 
