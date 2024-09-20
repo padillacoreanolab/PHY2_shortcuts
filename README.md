@@ -12,3 +12,6 @@ conda create -n phy2 -y cython dask h5py joblib matplotlib numpy pillow pip pyop
 conda activate phy2 
 pip install git+https://github.com/cortex-lab/phy.git
 ```
+
+## PlugIns 
+Missing the 1ms and 2ms columns in your cluster view on phy? Please open the plugins folder and follow the readme in there. 

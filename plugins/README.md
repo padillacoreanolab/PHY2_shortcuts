@@ -1,4 +1,8 @@
-In order to install these plugins copy and paste the .py scripts of the plugins you want into the file ~/.phy/plugins/
+Activate your phy2 environment and install phy:
+conda activate phy2
+pip install phy (into the command prompt/terminal)
+
+In order to install these plugins copy and paste the .py scripts of the plugins you want into the file ~/.phy/plugins/ (i.e. the scripts in this folder)
 
 Edit ~/.phy/phy_config.py, and specify the plugin names to load in the GUI:
 
