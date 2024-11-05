@@ -13,9 +13,10 @@ If there is no .phy folder, try launching phy with a phy file as if you were goi
 ## Adding the PlugIns
 Edit ~/.phy/phy_config.py, and specify the plugin names to load in the GUI:
 
+```
 c.Plugins.dirs = [r'C:\Users\megha\.phy\plugins'] #make sure this is a path to your .phy/plugins folder, obviously your Users folder is NOT megha
 
 c.TemplateGUI.plugins = ['ISIViolationPlugin1ms', 'ISIViolationPlugin2ms']  # list of plugin names to load in the TemplateGUIs, specifically the name of the class in each plugin .py script (open them, it is the class NameOfPlugIn that is the first line of each .py script)
-
+```
 ## Check to see if it worked
 Now launch phy! 
